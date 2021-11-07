@@ -11172,7 +11172,10 @@ textarea.form-control-lg {
   background: url("../../assets/img/footerBG.png");
   background-position: center;
   background-size: cover;
-  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #0d274a;
+  height: 200px;
 }
 
 .landing-text {
@@ -11217,12 +11220,12 @@ textarea.form-control-lg {
 
 .column-banner {
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 .img-container {
   width: 100%;
-  height: 300px;
+  height: auto;
 }
 
 .player-image {

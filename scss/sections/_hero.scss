@@ -16,7 +16,10 @@
   background: url("../../assets/img/footerBG.png");
   background-position: center;
   background-size: cover;
-  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #0d274a;
+  height: 200px;
 }
 
 .landing-text {
