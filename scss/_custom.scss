@@ -1,0 +1,13 @@
+$primary:      #8cc63f;
+$secondary:     #0d274a;
+
+.divider-1 {
+  height: .25rem;
+  background: rgba(140, 198, 63, 1);
+}
+.divider-2 {
+  height: .5rem;
+  background: rgba(13, 39, 74, 1);
+}
+//IMPORT BOOTSTRAP
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

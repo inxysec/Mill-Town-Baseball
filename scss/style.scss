@@ -1,0 +1,23 @@
+@use 'custom';
+
+// IMPORT THE COMPONENTS
+@use 'components/_typography';
+
+// IMPORT THE SECTIONS
+@use 'sections/_navbar';
+@use 'sections/_hero';
+@use 'sections/_main';
+@use 'sections/_footer';
+
+
+// BODY
+
+body {
+  font-family: 'Roboto Slab', serif;
+  //background: -webkit-linear-gradient(rgba(140, 198, 63, 1), rgba(13, 39, 74, 1));
+  //background: -webkit-linear-gradient(rgba(13, 39, 74, 1),rgba(140, 198, 63, 1));
+}
+
+#main {
+  background: -webkit-linear-gradient(rgba(13, 39, 74, 1),rgba(140, 198, 63, 1));
+}
